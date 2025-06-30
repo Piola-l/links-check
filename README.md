@@ -32,7 +32,7 @@ nano ~/.config/systemd/user/links_check.service
 ```
 
 Paste this:
-``` txt
+``` toml
 [Unit]
 Description=Links responce check app
 
