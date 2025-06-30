@@ -43,6 +43,7 @@ Restart=on-failure
 [Install]
 WantedBy=default.target
 ```
+This puts all links from the ~/links_check file to the program.
 
 Enable service
 ``` sh
@@ -51,7 +52,5 @@ systemctl --user daemon-reload
 systemctl --user enable links_check.service
 systemctl --user start links_check.service
 ```
-
-This puts all links from the ~/links_check file to the program.
 
 
